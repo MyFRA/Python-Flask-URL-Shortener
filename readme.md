@@ -38,7 +38,9 @@ a simple url shortener build with python + flask + postgresql
 
 2. **GET** `/{code}`
    Desc: get original url
-   `Response(JSON):`
+
+    `Response(JSON):`
+
     ```json
     {
         "amount_clicked": 0,
