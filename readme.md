@@ -19,7 +19,8 @@ a simple url shortener build with python + flask + postgresql
 ### Endpoint
 
 1. **POST** `/shorten`
-   Desc: generate shortener url
+
+    Desc: generate shortener url
 
     `Request Body (JSON):`
 
@@ -38,7 +39,8 @@ a simple url shortener build with python + flask + postgresql
     ```
 
 2. **GET** `/{code}`
-   Desc: get original url
+
+    Desc: get original url
 
     `Response(JSON):`
 
