@@ -20,7 +20,8 @@ a simple url shortener build with python + flask + postgresql
 
 1. **POST** `/shorten`
    Desc: generate shortener url
-   `Request Body (JSON):`
+
+    `Request Body (JSON):`
 
     ```json
     {
