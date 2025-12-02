@@ -8,7 +8,7 @@ a simple url shortener build with python + flask + postgresql
 -   Edit environment variables
     -   `cp .env.example .env`
     -   change value in .env
-        -   `SQLALCHEMY_DATABASE_URI="postgresql://postgres:12345@localhost:5433/your_db"`
+        -   `SQLALCHEMY_DATABASE_URI="postgresql://postgres:12345@localhost:5432/your_db"`
 -   Migrate Database
     -   `flask --app src/main.py db init`
     -   `flask --app src/main.py db migrate`
