@@ -13,6 +13,8 @@ a simple url shortener build with python + flask + postgresql
     -   `flask --app src/main.py db init`
     -   `flask --app src/main.py db migrate`
     -   `flask --app src/main.py db upgrade`
+-   Run your app
+    -   `python src/main.py`
 
 ### Endpoint
 
